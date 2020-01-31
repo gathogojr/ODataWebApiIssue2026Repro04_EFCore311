@@ -9,7 +9,7 @@ using ODataWebApiIssue2026Repro04_EFCore311.DataSources;
 namespace ODataWebApiIssue2026Repro04_EFCore311.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20200131061413_InitialMigration")]
+    [Migration("20200131082040_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
