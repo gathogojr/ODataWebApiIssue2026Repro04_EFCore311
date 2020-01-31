@@ -22,7 +22,6 @@ namespace ODataWebApiIssue2026Repro04_EFCore311.DataSources
             {
                 optionsBuilder
                     .UseLoggerFactory(_loggerFactory)
-                    .EnableSensitiveDataLogging()
                     .UseSqlServer(@"Data Source = (LocalDb)\MSSQLLocalDB; Integrated Security = True; Persist Security Info = True; Database = Repro03EmpDb");
             }
         }
